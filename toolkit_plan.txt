@@ -1,0 +1,104 @@
+
+PLP WEEK 8 FINAL PROJECT
+PERSONAL MINI-TOOLKIT
+
+STUDENT: Abdishukri Suleiman Bare
+PROJECT: Personal Mini-Toolkit
+LANGUAGE: Python
+
+========================================
+PART A: TOOLKIT DESIGN
+========================================
+
+TOOL 1: NUMBER GUESSING GAME
+
+Description:
+This tool allows the user to guess a secret number between
+1 and 10 until they find the correct answer.
+
+Concepts:
+- Variables
+- User input
+- While loop
+- If, elif and else conditionals
+- F-strings
+
+TOOL 2: TO-DO LIST MANAGER
+
+Description:
+This tool allows users to add new tasks, view their tasks,
+and remove completed tasks using a Python list.
+
+Concepts:
+- Lists
+- append()
+- remove()
+- For loops
+- While loops
+- If and elif conditionals
+- F-strings
+
+TOOL 3: SIMPLE CALCULATOR
+
+Description:
+This tool allows users to enter two numbers and perform
+addition, subtraction, multiplication and division.
+
+Concepts:
+- Variables
+- User input
+- Arithmetic operators
+- If, elif and else conditionals
+- F-strings
+
+========================================
+PART B: MAIN MENU DESIGN
+========================================
+
+Welcome to My Personal Mini-Toolkit!
+
+Please select a tool:
+
+1. Number Guessing Game
+2. To-Do List Manager
+3. Simple Calculator
+4. Quit
+
+Enter your choice (1-4):
+
+========================================
+PART C: PROGRAM BEHAVIOUR
+========================================
+
+The program displays a welcome message when it starts.
+
+The main menu repeats after each tool finishes.
+
+The user selects a tool by entering its menu number.
+
+Invalid choices display a polite error message.
+
+The program exits when the user selects option 4.
+
+A friendly goodbye message is displayed when quitting.
+
+========================================
+PART D: TESTING
+========================================
+
+Test 1: Select an invalid menu choice.
+Expected: Display an error message without crashing.
+
+Test 2: Play the number guessing game.
+Expected: Accept guesses until the correct number is found.
+
+Test 3: Add, view and remove tasks.
+Expected: The to-do list updates correctly.
+
+Test 4: Perform calculator operations.
+Expected: Correct arithmetic results are displayed.
+
+Test 5: Select Quit.
+Expected: Display goodbye message and terminate.
+
+END OF PROJECT PLAN
